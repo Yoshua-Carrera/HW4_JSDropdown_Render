@@ -3,3 +3,35 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  display: flex;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+  height: 50%;
+  width: 50%;
+}
+
+.content {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 80vw;
+  border: 3px solid white;
+}
+
+.container select {
+  font-size: 20px;
+  margin: 5px;
+  height: 50px;
+  width: 100px;
+  display: flex;
+}
